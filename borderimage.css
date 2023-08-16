@@ -1,0 +1,35 @@
+#border{
+  border:10px solid transparent;
+  padding:35px;
+  text-align:center;
+ 
+  border-image:url('borderpic.png') 30%  stretch ;
+   /*border-image-width:20px;*/
+   border-image-outset:5px;
+}
+
+
+body{
+  margin:0;
+  padding:0;
+  width:50%;
+  font-family:cursive;
+  font-size:1.2rem;
+  font-style:italic;
+  
+}
+#example1{
+  background-image:url('pic2.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  
+  padding:15px;
+}
+
+#grad1{
+  height:300px;
+  width:10%;
+  background-color:red;
+  background-image:repeating-linear-gradient(red,orange 20%,yellow 5%,green,blue,indigo,violet);
+}
